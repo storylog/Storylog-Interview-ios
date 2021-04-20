@@ -20,15 +20,15 @@
                             }
                         },
                         {
-                            "type": "book",
-                            "book": {
+                            "type": "ebook",
+                            "book": null,
+                            "ebook": {
                                 "_id": "9bdc3c425160a1588c",
                                 "contentType": "nonfiction",
                                 "title": "โอว์ที่รัก",
                                 "description": "“คุณเข้ามาห้องฉันทำไม?!” ชายหนุ่มไม่ตอบ แต่เขาเดินไปดูป้ายชื่อที่หน้าห้อง แล้วกลับเข้ามาในห้องอีกครั้ง “ผมพักห้องนี้”",
-                                "coverImage": "https://fictionlog-test/media/books/9bdc3c425160a1588c/tgzkawgpci5yftir.jpeg"
-                            },
-                            "ebook": null
+                                "coverImage": "https://fictionlog-test/media/ebooks/9bdc3c425160a1588c/tgzkawgpci5yftir.jpeg"
+                            }
                         },
                         {
                             "type": "ebook",
