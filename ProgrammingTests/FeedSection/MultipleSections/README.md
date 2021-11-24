@@ -4,9 +4,10 @@
 Note: สามารถสอบถาม UI,BN,PO ได้
 
 <p align="center">
-<img width="582" alt="image-section-feed" src="https://user-images.githubusercontent.com/63224918/115333531-06856700-a1c4-11eb-8887-d3b1cda151b3.png">
+<img width="582" alt="image-section-feed" src="https://github.com/storylog/storylog-interview-ios/blob/main/ProgrammingTests/FeedSection/MultipleSections/data/FeedScreen.png">
 </p>
 
+Json
 ```ruby
 {
     "data": {
@@ -70,6 +71,7 @@ Note: สามารถสอบถาม UI,BN,PO ได้
 }
 ```
 
+GraphQL
 ```ruby
 query feed {
     feed(feedId: "home") {
@@ -116,6 +118,7 @@ fragment SectionItemFragment on items {
 }
 ```
 
+Schema.graphQL
 ```ruby
 type Feed {
   id: ID!
