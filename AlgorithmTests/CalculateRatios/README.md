@@ -1,8 +1,6 @@
-**Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.**
+**Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero respectively.**
 
-**You may assume that each input would have exactly one solution, and you may not use the same element twice.**
-
-**You can return the answer in any order.**
+**Example:**
 
 **arr = [-1, -1, 0 , 1, 1]**
 
@@ -16,26 +14,33 @@
 Constraints:
 ```ruby
 0 < n <= 100
--100 < nums[i] <= 100
--1000 < target <= 1000
-Only one valid answer exists.
+-100 < arr[i] <= 100
+```
+
+Output Format:
+Print the following 3 lines,
+```ruby
+1. proportion of positive values
+2. proportion of negative values
+3. proportion of zeros
 ```
 
 Sample Input:
 ```ruby
-input = [3,2,4]
-target = 6
+input1 = [-1, -1, 0 , 1, 1]
+input2 = [-4, 3, -9, 0, 4, 1]
 ```
 
 Sample Output
 ```ruby
-[1,2]
+0.500000
+0.333333
+0.166667
 ```
 
 Example:
 
 ```ruby
-// Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 func plusMinus(arr: [Int]) -> [Any]? {
     //...
     //... do something
@@ -43,20 +48,9 @@ func plusMinus(arr: [Int]) -> [Any]? {
     return nil
 }
 
-let inputA = [3,2,4], targetA = 6
-_ = plusMinus(arr: inputA)
-// expected [1,2]
+let input1 = [-1, -1, 0 , 1, 1]
+_ = plusMinus(arr: input1)
 
-let inputB = [3,3], targetB = 6
-_ = plusMinus(arr: inputB)
-// expected [0,1]
-
-let inputC = [2,7,11,15], targetC = 9
-_ = plusMinus(arr: inputC)
-// expected [0,1]
-
-let inputD = [1,5,8,7,11,15,1,50,8,98,47,312,14,20,54,26,16], targetD = 30
-_ = plusMinus(arr: inputD)
-// expected [12,16]
-
+let input2 = [-4, 3, -9, 0, 4, 1]
+_ = plusMinus(arr: input2)
 ```
