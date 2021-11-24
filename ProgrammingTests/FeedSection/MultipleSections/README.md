@@ -4,7 +4,7 @@
 Note: สามารถสอบถาม UI,BN,PO ได้
 
 <p align="center">
-<img width="582" alt="image-section-feed" src="https://github.com/storylog/storylog-interview-ios/blob/main/ProgrammingTests/FeedSection/MultipleSections/data/FeedScreen.png">
+<img width="582" alt="image-section-feed" src="https://github.com/storylog/storylog-interview-ios/blob/main/ProgrammingTests/FeedSection/MultipleSections/data/FeedScreen.jpeg">
 </p>
 
 Json
