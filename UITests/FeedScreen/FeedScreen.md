@@ -2,6 +2,6 @@
 
 **จาก UI ด้านล่าง ลองออกแบบ User interface โดยใช้ UIKit หรือ SwiftUI ก็ได้ (เลือกอย่างใดอย่างหนึ่ง).**
 <p align="center">
-<img width="376" alt="Screen Shot 2564-04-19 at 20 40 10" src="https://github.com/storylog/storylog-interview-ios/blob/main/UITests/FeedScreen/FeedScreen.png">
+<img width="376" alt="Screen Shot 2564-04-19 at 20 40 10" src="https://github.com/storylog/storylog-interview-ios/blob/main/UITests/FeedScreen/FeedScreen_Example.jpeg">
 </p>
 
