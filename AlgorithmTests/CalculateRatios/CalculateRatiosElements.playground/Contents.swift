@@ -1,3 +1,4 @@
+// calculate the ratio of the elements in the array
 func plusMinus(arr: [Int]) -> [Any]? {
     //...
     //... do something

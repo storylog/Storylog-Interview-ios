@@ -1,0 +1,58 @@
+{
+  "feed": {
+    "id": "abc",
+    "sections": [
+      {
+        "id": "123",
+        "layoutType": "banner",
+        "title": null,
+        "items": [
+          {
+            "type": "banner",
+            "banner": {
+              "url": "https://fictionlog.co/p/",
+              "bannerImage": "https://fic-banner1.jpeg"
+            }
+          },
+          {
+            "type": "banner",
+            "banner": {
+              "url": "https://fictionlog.co/p/",
+              "bannerImage": "https://fic-banner2.jpeg"
+            }
+          }
+        ]
+      },
+      {
+        "id": "123",
+        "layoutType": "bookCover",
+        "title": "หนังสือยอดนิยม",
+        "items": [
+          {
+            "type": "book",
+            "book": {
+              "id": "5d1234",
+              "coverImage": "https://fic-book1.jpeg",
+              "title": "Racing",
+              "authorName": "โอนิซึกะ ฮานามิจิ",
+              "translatorName": null,
+              "category": "นิยายโรแมนติก",
+              "viewsCount": "2000",
+              "chaptersCount": "24"
+            },
+            "book": {
+              "id": "5d1234",
+              "coverImage": "https://fic-book2.jpeg",
+              "title": "Racing",
+              "authorName": "โอนิซึกะ ฮานามิจิ",
+              "translatorName": null,
+              "category": "นิยายโรแมนติก",
+              "viewsCount": "2000",
+              "chaptersCount": "24"
+            },
+          }
+        ]
+      }
+    ]
+  }
+}

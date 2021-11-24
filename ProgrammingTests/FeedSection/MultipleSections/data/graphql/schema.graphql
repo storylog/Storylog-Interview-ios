@@ -1,0 +1,48 @@
+type Feed {
+  id: ID!
+  sections: [Section]
+}
+
+type Section {
+  id: ID!
+  layoutType: LayoutType!
+  title: String
+  items: [SectionItem]!
+}
+
+enum LayoutType {
+  banner
+  bookCover
+}
+
+type SectionItem {
+  type: SectionItemType
+  book {
+    id: ID!
+    coverImage: String
+    title: String
+    authorName: String
+    translatorName: String
+    category: String
+    viewsCount: Int
+    chaptersCount: Int
+  }
+  ebook {
+      id: ID!
+      coverImage: String
+      title: String
+      authorName: String
+      translatorName: String
+      category: String
+  }
+  banner {
+      url: String
+      bannerImage: String
+  }
+}
+
+enum SectionItemType {
+    book
+    ebook
+    banner
+}

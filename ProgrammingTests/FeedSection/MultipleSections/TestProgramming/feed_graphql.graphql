@@ -1,0 +1,43 @@
+query feed {
+	feed(feedId: "home") {
+		id
+		sections {
+			...SectionFragment
+		}
+  	}
+}
+
+fragment SectionFragment on Section  {
+ 	id
+	layoutType
+	title
+	items {
+		...SectionItemFragment
+	}
+}
+
+fragment SectionItemFragment on items {
+	type
+	book  {
+		id
+		title
+		authorName
+		translatorName
+		category
+		viewsCount
+		chaptersCount
+		coverImage
+	}
+	ebook {
+		id
+		title
+		authorName
+		translatorName
+		category
+		coverImage
+	}
+	banner {
+		bannerImage
+		url
+	}
+}
