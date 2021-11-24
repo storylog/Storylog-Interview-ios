@@ -14,17 +14,17 @@ Json
         "feed": {
             "id": "abc",
             "sections": [
-            {
-                "id": "123",
-                "layoutType": "banner",
-                "title": null,
-                "items": [
                 {
-                    "type": "banner",
-                    "banner": {
-                        "url": "https://fictionlog.co/p/",
-                        "bannerImage": "https://fic-banner1.jpeg"
-                    }
+                    "id": "123",
+                    "layoutType": "banner",
+                    "title": null,
+                    "items": [
+                    {
+                        "type": "banner",
+                        "banner": {
+                            "url": "https://fictionlog.co/p/",
+                            "bannerImage": "https://fic-banner1.jpeg"
+                        }
                 },
                 {
                     "type": "banner",
